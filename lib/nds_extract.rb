@@ -3,7 +3,7 @@ require 'directors_database'
 
 
 def directors_totals(nds)
-
+  pp nds
   
   result = {}
   i = 0
@@ -19,18 +19,9 @@ def directors_totals(nds)
     result[name] = total
     i += 1
   end
-  
-  
+  puts "------"
+  pp result
   result
-  #
-  # Use loops, variables and the accessing method, [], to loop through the NDS
-  # and total up all the
-  # ...
-  # ...
-  # ...
-  #
-  #
-  # Be sure to return the result at the end!
   
 end
 
