@@ -19,11 +19,13 @@ def directors_totals(nds)
     movies = nds[i][:movies]
     total = 0
     while j < movies.length do
-      moves[j][]
+      total += moves[j][:worldwide_gross]
+      j += 1
     end
-    
-  
+    gross << total
+    i += 1
   end
+  
   result = {
   }
   #
