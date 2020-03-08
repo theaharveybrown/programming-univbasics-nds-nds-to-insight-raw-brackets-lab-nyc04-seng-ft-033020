@@ -11,10 +11,9 @@ def directors_totals(nds)
   
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   i = 0
-  names = []
-  gross = []
+  
   while i < nds.length do 
-    names << nds[i][:name]
+    name = nds[i][:name]
     j = 0
     movies = nds[i][:movies]
     total = 0
@@ -22,8 +21,7 @@ def directors_totals(nds)
       total += moves[j][:worldwide_gross]
       j += 1
     end
-    gross << total
-    
+    result[name] = total
     i += 1
   end
   
