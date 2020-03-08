@@ -23,4 +23,4 @@ def directors_totals(nds)
   nil
 end
 
-directors_totals()
+directors_totals(directors_database)
