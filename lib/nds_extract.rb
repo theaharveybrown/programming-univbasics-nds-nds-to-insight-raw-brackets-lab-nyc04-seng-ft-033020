@@ -3,8 +3,6 @@ require 'directors_database'
 
 
 def directors_totals(nds)
-  # pp nds
-  
   result = {}
   i = 0
   while i < nds.length do 
@@ -19,8 +17,6 @@ def directors_totals(nds)
     result[name] = total
     i += 1
   end
-  # puts "------"
-  # pp result
   result
   
 end
