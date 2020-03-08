@@ -14,7 +14,8 @@ def directors_totals(nds)
   names = []
   while i < nds.length do 
     names << nds[i][:name]
-    while 
+    j = 0
+    while j 
     
   
   end
