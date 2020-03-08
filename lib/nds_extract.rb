@@ -23,8 +23,10 @@ def directors_totals(nds)
       j += 1
     end
     gross << total
+    
     i += 1
   end
+  
   
   result = {
   }
