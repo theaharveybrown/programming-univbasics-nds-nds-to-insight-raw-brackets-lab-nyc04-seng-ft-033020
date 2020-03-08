@@ -10,6 +10,11 @@ def directors_totals(nds)
   #
   
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
+  i = 0
+  while i < nds.length do 
+    key = 
+  
+  end
   result = {
   }
   #
