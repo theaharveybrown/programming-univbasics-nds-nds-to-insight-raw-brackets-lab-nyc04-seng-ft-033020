@@ -12,11 +12,14 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   i = 0
   names = []
+  gross = []
   while i < nds.length do 
     names << nds[i][:name]
     j = 0
-    movies = 
-    while j 
+    movies = nds[i][:movies]
+    while j < movies.length do
+      
+    end
     
   
   end
