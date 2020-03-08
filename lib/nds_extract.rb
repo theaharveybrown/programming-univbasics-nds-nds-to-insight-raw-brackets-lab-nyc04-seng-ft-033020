@@ -19,7 +19,7 @@ def directors_totals(nds)
     movies = nds[i][:movies]
     total = 0
     while j < movies.length do
-      
+      moves[j][]
     end
     
   
