@@ -3,7 +3,7 @@ require 'directors_database'
 
 
 def directors_totals(nds)
-  pp nds
+  # pp nds
   
   result = {}
   i = 0
@@ -19,8 +19,8 @@ def directors_totals(nds)
     result[name] = total
     i += 1
   end
-  puts "------"
-  pp result
+  # puts "------"
+  # pp result
   result
   
 end
